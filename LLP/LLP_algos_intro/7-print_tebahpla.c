@@ -6,11 +6,10 @@
 
 int main(void)
 {
-  int ch = 'z';
-  for(ch; ch > 96 ; ch--){
-    putchar(ch);
-  }
-  putchar('\n');
-  return (0);
+int ch = 'z';
+for (; ch > 96 ; ch--)
+putchar(ch);
+
+putchar('\n');
+return (0);
 }
-    
